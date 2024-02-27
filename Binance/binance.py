@@ -18,8 +18,8 @@ def get_ipv4_session():
     return session
 
 exchange = ccxt.binanceus({  # Replace 'binance' with your chosen exchange
-    'apiKey': 'lsCAvV9AVUzheTJYaHAPsTTH0YGbI1mwP1aCowYKJXqopVqSRmTTkDwXI9iuo1AU',
-    'secret': 'Bou1s5O8JOhznjGX82JDxiNHCyotQ7MIYdwz6OQiTyABLY1aKOIbudXV5uK1Tk63',
+    'apiKey': '',
+    'secret': '',
     'session': get_ipv4_session()
 })
 
