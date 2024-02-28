@@ -12,7 +12,7 @@ class CustomStreamingTextResponse extends StreamingTextResponse {
 
 // Initialize OpenAI instance with the API key from environment variables
 const openai = new OpenAI({
-    apiKey: "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"
+    apiKey: ""
 });
 
 export default async function POST(req, res) {
