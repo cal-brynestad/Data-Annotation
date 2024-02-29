@@ -1,3 +1,7 @@
+// FOR DATA ANNOTATION GRADER:
+// I forgot to to put in the submission that this project requires a .env file in the root of the project where you define MONGODB_URI and PORT
+// In order to test you will need to set up a MongoDB databse using MongoDB Atlas
+// Information about how to do this can be found here: https://fullstackopen.com/en/part3/saving_data_to_mongo_db#mongo-db
 const mongoose = require('mongoose')
 const supertest = require('supertest')
 const app = require('../index')

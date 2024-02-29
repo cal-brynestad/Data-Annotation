@@ -65,7 +65,6 @@ router.delete('/:id', async (req, res) => {
     res.json(deletedBlog);
 });
 
-
 // Get post by tags
 router.get('/tags/:tag', async (request, response) => {
     const tag = request.params.tag;
