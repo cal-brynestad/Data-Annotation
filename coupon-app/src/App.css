@@ -1,0 +1,11 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 20px; /* Spacing between cards */
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+}
