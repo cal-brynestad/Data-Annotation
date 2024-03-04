@@ -1,0 +1,33 @@
+<style>
+  .table-container {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;   /* Enable vertical scrolling */
+  }
+</style>
+
+<!-- Add Bootstrap CSS in the head of your HTML file -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- Your Angular component content -->
+<div class="table-container">
+  <h2>Bootstrap Table with Fake Data</h2>
+  
+  <!-- Bootstrap table -->
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Replace this with your Angular logic to loop through the data -->
+      <tr *ngFor="let person of fakeData">
+        <td>{{ person.id }}</td>
+        <td>{{ person.name }}</td>
+        <td>{{ person.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
